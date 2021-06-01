@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5763375053,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on adactin page",
+            "match": {
+              "location": "Background.user_is_on_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208581082,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "Background.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1104370279,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click the login button",
+            "match": {
+              "location": "Background.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 701452,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSmokeTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSecnario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Booking with field marked with red astrix mark",
+        "description": "",
+        "id": "validating-adactin-hotel-page;booking-with-field-marked-with-red-astrix-mark",
+        "after": [
+          {
+            "result": {
+              "duration": 77369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftersmokeTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 622652041,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on search page and need to select something",
+            "match": {
+              "location": "Background.user_is_on_search_page_and_need_to_select_something()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9380587586,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User need to click the login button",
+            "match": {
+              "location": "Background.user_need_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5564836142,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on adactin page",
+            "match": {
+              "location": "Background.user_is_on_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181336169,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "Background.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 973667331,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click the login button",
+            "match": {
+              "location": "Background.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 64737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeRegTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31974,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSecnario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Booking with field not marked with red astrix mark",
+        "description": "",
+        "id": "validating-adactin-hotel-page;booking-with-field-not-marked-with-red-astrix-mark",
+        "after": [
+          {
+            "result": {
+              "duration": 75395,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftersRegTag()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155753110,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on search page need to select somthing",
+            "match": {
+              "location": "Background.user_is_on_search_page_need_to_select_somthing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57473266,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User need to click search button",
+            "match": {
+              "location": "Background.user_need_to_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85264,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User need to validate error message",
+            "match": {
+              "location": "Background.user_need_to_validate_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Adactin hotel page",
+    "description": "",
+    "id": "validating-adactin-hotel-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Background.feature",
+    "tags": []
+  }
+]
